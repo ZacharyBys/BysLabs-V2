@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "GeomanistRegular";
+    src: url("/fonts/geomanist-regular-webfont.tff");
+}
+
+.navbar-container {
+    line-height: 55px;
+}
+
+.navbar-logo {
+    padding: 10px;
+    padding-right: 20px;
+    height:40px;
+    float: left;
+}
+
+.navbar-about, .navbar-experience, .navbar-projects{
+    float: left;
+    padding-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: GeomanistRegular;
+}
+
+.navbar-github, .navbar-instagram {
+    float: right;
+    height: 30px;
+    padding-top: 15px;
+    padding-right: 25px;
+}
