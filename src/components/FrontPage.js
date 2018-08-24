@@ -6,7 +6,6 @@ class FrontPage extends Component {
   render() {
     return (
       <div className="frontpage-background">
-      <br/><br/><br/><br/><br/>
         <IntroSection/>
       </div>
     );
