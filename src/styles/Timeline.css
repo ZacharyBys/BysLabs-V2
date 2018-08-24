@@ -1,0 +1,31 @@
+.timeline-container {
+    width: 100%;
+    margin-top: 125px;
+    text-align: center;
+}
+
+.timeline-table {
+    margin: auto;
+    padding: 0px;
+}
+
+.timeline-table tr {
+    padding: 0px;
+}
+
+.timeline-table td {
+    width: 75px;
+    height: 75px;
+    padding: 0px;
+}
+
+.timeline-table img {
+    width: 100%;
+    height: 100%;
+}
+
+.timeline-connector {
+    background-color: #7AB55C;
+    height: 2px;
+    width: 100%;
+}
