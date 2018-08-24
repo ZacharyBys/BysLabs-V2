@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat');
+}
+
+.intro-section-container {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 300px;
+}
+
+.intro-title {
+    color: white;
+    font-size: 40px;
+    font-family: Montserrat;
+    margin-bottom: 10px;
+}
+
+.intro-subtext {
+    color: white;
+    font-family: Montserrat;
+    margin: 10px;
+}
+
+.intro-highlight {
+    color: #7AB55C;
+}
+
+.intro-line {
+    background-color: #7AB55C;
+    height: 2px;
+    width: 75px;
+    margin: auto;
+}

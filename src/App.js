@@ -4,8 +4,7 @@ import FrontPage from './components/FrontPage';
 class App extends Component {
   render() {
     return (
-      <FrontPage>
-      </FrontPage>
+      <FrontPage/>
     );
   }
 }

@@ -4,7 +4,7 @@ html {
 
 .frontpage-background {
     height: 100vh;
-    background-image: url("../resources/ocean-background.jpg");
+    background-color: #000639;
     background-repeat: no-repeat;
     background-size: cover;
 }
