@@ -7,16 +7,19 @@
 .timeline-table {
     margin: auto;
     padding: 0px;
+    border-collapse: collapse;
 }
 
 .timeline-table tr {
     padding: 0px;
+    margin: 0px;
 }
 
 .timeline-table td {
     width: 75px;
     height: 75px;
     padding: 0px;
+    margin: 0px;
 }
 
 .timeline-table img {
@@ -28,4 +31,26 @@
     background-color: #7AB55C;
     height: 2px;
     width: 100%;
+}
+
+.timeline-image {
+    border: solid #7AB55C;
+    border-radius: 100%;
+}
+
+.timeline-point-connector-left, .timeline-point-connector-right {
+    background-color: #7AB55C;
+    height: 2px;
+    width: 100%;
+}
+
+.timeline-point-right, .timeline-point-left {
+    height: 10px;
+    width: 10px;
+    background-color: #7AB55C;
+    border-radius: 100%;
+}
+
+.timeline-point-left {
+    float: right;
 }

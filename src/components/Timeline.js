@@ -11,15 +11,17 @@ class Timeline extends Component {
       <div className="timeline-container">
         <table className="timeline-table">
             <tr>
-                <td> </td>
-                <td><img src={Concordia}/></td>
+                <td><div className="timeline-point-left"/></td>
+                <td><div className="timeline-point-connector-left"/></td>
+                <td><img src={Concordia} className="timeline-image"/></td>
                 <td><div className="timeline-connector"/></td>
-                <td><img src={Eidos}/></td>
+                <td><img src={Eidos} className="timeline-image"/></td>
                 <td><div className="timeline-connector"/></td>
-                <td><img src={Coveo}/></td>
+                <td><img src={Coveo} className="timeline-image"/></td>
                 <td><div className="timeline-connector"/></td>
-                <td><img src={HackConcordia}/></td>
-                <td> </td>
+                <td><img src={HackConcordia} className="timeline-image"/></td>
+                <td><div className="timeline-point-connector-right"/></td>
+                <td><div className="timeline-point-right"/></td>
             </tr>
         </table>
       </div>
