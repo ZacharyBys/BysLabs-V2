@@ -10,18 +10,44 @@ class Timeline extends Component {
     return (
       <div className="timeline-container">
         <table className="timeline-table">
+            <tr className="timeline-arrow-row">
+                <td> </td>
+                <td> </td>
+                <td><div className="timeline-info-up"/></td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td><div className="timeline-info-up"/></td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
             <tr>
-                <td><div className="timeline-point-left"/></td>
-                <td><div className="timeline-point-connector-left"/></td>
-                <td><img src={Concordia} className="timeline-image"/></td>
-                <td><div className="timeline-connector"/></td>
-                <td><img src={Eidos} className="timeline-image"/></td>
-                <td><div className="timeline-connector"/></td>
-                <td><img src={Coveo} className="timeline-image"/></td>
-                <td><div className="timeline-connector"/></td>
-                <td><img src={HackConcordia} className="timeline-image"/></td>
-                <td><div className="timeline-point-connector-right"/></td>
-                <td><div className="timeline-point-right"/></td>
+                <td className="timeline-image-container"><div className="timeline-point-left"/></td>
+                <td className="timeline-image-container"><div className="timeline-point-connector-left"/></td>
+                <td className="timeline-image-container"><img src={Concordia} className="timeline-image"/></td>
+                <td className="connector"><div className="timeline-connector"/></td>
+                <td className="timeline-image-container"><img src={Eidos} className="timeline-image"/></td>
+                <td className="connector"><div className="timeline-connector"/></td>
+                <td className="timeline-image-container"><img src={Coveo} className="timeline-image"/></td>
+                <td className="connector"><div className="timeline-connector"/></td>
+                <td className="timeline-image-container"><img src={HackConcordia} className="timeline-image"/></td>
+                <td className="timeline-image-container"><div className="timeline-point-connector-right"/></td>
+                <td className="timeline-image-container"><div className="timeline-point-right"/></td>
+            </tr>
+            <tr className="timeline-arrow-row">
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td><div className="timeline-info-down"/></td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td><div className="timeline-info-down"/></td>
+                <td> </td>
+                <td> </td>
             </tr>
         </table>
       </div>
