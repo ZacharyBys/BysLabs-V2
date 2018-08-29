@@ -10,6 +10,26 @@ class Timeline extends Component {
     return (
       <div className="timeline-container">
         <table className="timeline-table">
+            <tr className="timeline-info-top-row">
+                <td> </td>
+                <td className="timeline-info-box-container" colspan="3">
+                  <div className="timeline-info-box">
+
+                  </div>
+                </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td className="timeline-info-box-container" colspan="3">
+                  <div className="timeline-info-box">
+                  
+                  </div>
+                </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
             <tr className="timeline-arrow-row">
                 <td> </td>
                 <td> </td>
@@ -56,6 +76,26 @@ class Timeline extends Component {
                 <td> </td>
                 <td><div className="timeline-info-down"/></td>
                 <td> </td>
+                <td> </td>
+            </tr>
+            <tr className="timeline-info-bottom-row">
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td className="timeline-info-box-container" colspan="3">
+                  <div className="timeline-info-box">
+
+                  </div>
+                </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td className="timeline-info-box-container" colspan="3">
+                  <div className="timeline-info-box">
+
+                  </div>
+                </td>
                 <td> </td>
             </tr>
         </table>
