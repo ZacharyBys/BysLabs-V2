@@ -5,6 +5,12 @@
     padding-bottom: 250px;
 }
 
+.timeline-title {
+    font-family: Montserrat;
+    color: white;
+    margin-bottom: 80px;
+}
+
 .timeline-table {
     margin: auto;
     padding: 0px;
