@@ -1,0 +1,16 @@
+.link-section-container {
+    width: 100%;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.link-section-table, .link-section-table td {
+    margin: auto;
+    border: solid black;
+}
+
+.link-section-icon{
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+}
