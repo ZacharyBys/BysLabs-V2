@@ -1,0 +1,42 @@
+.project-container {
+    border: white solid;
+    width: 500px;
+    padding: 0px;
+}
+
+.project-title {
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.project-image-container {
+    width: 1%;
+}
+
+.project-text-container {
+    vertical-align: top;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.project-image {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.project-line {
+    background-color: #7AB55C;
+    height: 2px;
+    width: 75px;
+}
+
+.project-description {
+    color: white;
+    font-family: Montserrat;
+    padding-top: 5px;
+    margin: 0;
+}
