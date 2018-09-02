@@ -6,11 +6,15 @@
 
 .link-section-table, .link-section-table td {
     margin: auto;
-    border: solid black;
+    padding: 10px;
 }
 
 .link-section-icon{
     width: 45px;
     height: 45px;
     vertical-align: middle;
+}
+
+.link-section-icon:hover {
+    opacity: 0.7;
 }
