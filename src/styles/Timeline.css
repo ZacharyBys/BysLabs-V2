@@ -93,3 +93,29 @@
     padding: 0;
     margin: 0;
 }
+
+.timeline-info-box h1, .timeline-info-box h2 {
+    padding: 0;
+    margin: 0px;
+    font-family: Montserrat;
+    color: white;
+}
+
+.timeline-info-box h1 {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.timeline-info-box h2 {
+    font-size: 15px;
+}
+
+.timeline-info-list {
+    color: white;
+    text-align: left;
+}
+
+.timeline-info-list li {
+    font-family: Montserrat;
+    font-size: 13px;
+}

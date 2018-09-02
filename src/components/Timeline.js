@@ -14,7 +14,13 @@ class Timeline extends Component {
                 <td> </td>
                 <td className="timeline-info-box-container" colspan="3">
                   <div className="timeline-info-box">
-
+                    <h1>Concordia</h1>
+                    <h2>2016 - Present</h2>
+                    <ul className="timeline-info-list"> 
+                      <li>Software Engineering</li>
+                      <li>Member of Co-op Institute</li>
+                      <li>Dean's List</li>
+                    </ul>
                   </div>
                 </td>
                 <td> </td>
@@ -22,7 +28,13 @@ class Timeline extends Component {
                 <td> </td>
                 <td className="timeline-info-box-container" colspan="3">
                   <div className="timeline-info-box">
-                  
+                    <h1>Coveo</h1>
+                    <h2>Apr. 2018 - Aug. 2018</h2>
+                    <ul className="timeline-info-list"> 
+                      <li>Software Developer Intern</li>
+                      <li>Backend Programming</li>
+                      <li>Java, Spring, MySQL, AWS</li>
+                    </ul>
                   </div>
                 </td>
                 <td> </td>
@@ -85,7 +97,13 @@ class Timeline extends Component {
                 <td> </td>
                 <td className="timeline-info-box-container" colspan="3">
                   <div className="timeline-info-box">
-
+                    <h1>Eidos-Montréal</h1>
+                    <h2>Sept. 2017 - Apr. 2018</h2>
+                    <ul className="timeline-info-list"> 
+                      <li>Gameplay Programming Intern</li>
+                      <li>Shadow of the Tomb Raider</li>
+                      <li>C++</li>
+                    </ul>
                   </div>
                 </td>
                 <td> </td>
@@ -93,7 +111,13 @@ class Timeline extends Component {
                 <td> </td>
                 <td className="timeline-info-box-container" colspan="3">
                   <div className="timeline-info-box">
-
+                    <h1>HackConcordia</h1>
+                    <h2>May. 2018 - Present</h2>
+                    <ul className="timeline-info-list"> 
+                      <li>VP Technology</li>
+                      <li>Tech for ConUHacks</li>
+                      <li>React, Node, MongoDB, Python</li>
+                    </ul>
                   </div>
                 </td>
                 <td> </td>
