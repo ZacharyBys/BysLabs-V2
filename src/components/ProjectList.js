@@ -7,6 +7,7 @@ import ConUHacks from '../resources/conuhacks_logo.svg';
 import Robohacks from '../resources/robohacks.png';
 import AdidasMoments from '../resources/adidas_moments_logo.png';
 import CaptionThis from '../resources/caption_this.png';
+import RefugeeCenter from '../resources/refugee_logo.png';
 
 class ProjectList extends Component {
   render() {
@@ -52,6 +53,20 @@ class ProjectList extends Component {
                     title="Caption This" 
                     description="Online crowdsourcing caption platform, where users can submit moments, the community helps them find the best caption."
                     image={CaptionThis}
+                />
+            </li>
+            <li>
+                <Project 
+                    title="ShotBot" 
+                    description="Automatic drink dispenser, which is activated from a mobile device and detects glasses to pour a shot into. Won best electrical robot at Robohacks 2017."
+                    image={Robohacks}
+                />
+            </li>
+            <li>
+                <Project 
+                    title="Avalon" 
+                    description="Allows refugee centers to track refugees, update their information when needed, and receive notifications from them. Won 2nd overall at Blochacks 2017."
+                    image={RefugeeCenter}
                 />
             </li>
         </ul>
