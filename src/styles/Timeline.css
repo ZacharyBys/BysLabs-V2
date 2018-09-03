@@ -8,7 +8,16 @@
 .timeline-title {
     font-family: Montserrat;
     color: white;
-    margin-bottom: 80px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.timeline-line {
+    background-color: #7AB55C;
+    height: 2px;
+    width: 75px;
+    margin: auto;
+    margin-bottom: 75px;
 }
 
 .timeline-table {

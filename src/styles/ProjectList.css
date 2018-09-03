@@ -1,8 +1,33 @@
-.project-list-container {
+.project-list {
     list-style-type: none;
     padding-left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: space-evenly;
 }
 
-.project-list-container li {
+.project-list li {
     padding: 25px;
+}
+
+.project-list-container {
+    width: 80%;
+    margin: auto;
+}
+
+.project-list-title {
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.project-list-line {
+    background-color: #7AB55C;
+    height: 2px;
+    width: 75px;
+    margin: auto;
+    margin-bottom: 75px;
 }

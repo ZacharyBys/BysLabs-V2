@@ -9,7 +9,8 @@ class Timeline extends Component {
   render() {
     return (
       <div className="timeline-container">
-      <h1 className="timeline-title">Experience</h1>
+      <h1 className="timeline-title">School & Experience</h1>
+      <div className="timeline-line"/>
         <table className="timeline-table">
             <tr className="timeline-info-top-row">
                 <td> </td>
