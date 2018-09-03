@@ -40,4 +40,13 @@
     font-family: Montserrat;
     padding-top: 5px;
     margin: 0;
+    text-decoration: none;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-container:hover {
+    border: #7AB55C solid;
 }
