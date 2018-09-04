@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.fe906824.css",
   "main.css.map": "static/css/main.fe906824.css.map",
-  "main.js": "static/js/main.3a138baf.js",
-  "main.js.map": "static/js/main.3a138baf.js.map",
+  "main.js": "static/js/main.9eadbddf.js",
+  "main.js.map": "static/js/main.9eadbddf.js.map",
   "static\\media\\Concordia.png": "static/media/Concordia.c8f71b3c.png",
   "static\\media\\Coveo.png": "static/media/Coveo.9aca1914.png",
   "static\\media\\Eidos-Montreal.png": "static/media/Eidos-Montreal.87aa5706.png",
@@ -17,5 +17,6 @@
   "static\\media\\profilephoto.png": "static/media/profilephoto.56a5bfbf.png",
   "static\\media\\refugee_logo.png": "static/media/refugee_logo.d2e932fd.png",
   "static\\media\\robohacks.png": "static/media/robohacks.3c079131.png",
-  "static\\media\\wryss.jpg": "static/media/wryss.d0fc9e55.jpg"
+  "static\\media\\wryss.jpg": "static/media/wryss.d0fc9e55.jpg",
+  "static\\media\\zacharybys_cv.pdf": "static/media/zacharybys_cv.58fc4d12.pdf"
 }
