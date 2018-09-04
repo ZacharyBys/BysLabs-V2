@@ -16,5 +16,19 @@
 }
 
 .link-section-icon:hover {
-    opacity: 0.7;
+    opacity: 0.6;
+}
+
+.link-section-navbar {
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.link-section-navbar a {
+    text-decoration: none;
+    color: white;
+}
+.link-section-navbar a:hover {
+    opacity: 0.6;
 }

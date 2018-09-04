@@ -8,7 +8,7 @@ import HackConcordia from '../resources/HackConcordia.png';
 class Timeline extends Component {
   render() {
     return (
-      <div className="timeline-container">
+      <div className="timeline-container" id="link-timeline">
       <h1 className="timeline-title">School & Experience</h1>
       <div className="timeline-line"/>
         <table className="timeline-table">

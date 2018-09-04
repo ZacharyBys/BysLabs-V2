@@ -4,6 +4,7 @@ import Github from '../resources/github-logo.svg';
 import CvIcon from '../resources/cv-icon.png';
 import Instagram from '../resources/instagram-logo.png';
 import Linkedin from '../resources/Linkedin-icon.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class LinkSection extends Component {
   render() {
@@ -17,6 +18,9 @@ class LinkSection extends Component {
                 <td><a href="https://www.instagram.com/biggbys/" target="_blank"><img src={Instagram} className="link-section-icon"/></a></td>
             </tr>
         </table>
+        <div className="link-section-navbar">
+          <p><AnchorLink offset="50" href="#link-projects">Projects</AnchorLink> • <AnchorLink offset="50" href="#link-timeline">Experience</AnchorLink></p>
+        </div>
       </div>
     );
   }
