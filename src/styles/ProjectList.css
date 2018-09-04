@@ -4,7 +4,9 @@
     display: flex;
     flex-flow: row wrap;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .project-list li {

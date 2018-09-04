@@ -6,6 +6,7 @@ class IntroSection extends Component {
   render() {
     return (
       <div className="intro-section-container">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
         <div className="profile-photo-container">
             <img src={profilephoto} className="profile-photo"/>
         </div>
