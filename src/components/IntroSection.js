@@ -14,7 +14,7 @@ class IntroSection extends Component {
             <h1 className="intro-title">Zachary Bys<span className="intro-highlight">.</span></h1>
             <div className="intro-line"></div>
             <h2 className="intro-subtext">Student Developer</h2>
-            <h2 className="intro-subtext">Hackathon Enthousiast</h2>
+            <h2 className="intro-subtext">Hackathon Enthusiast</h2>
         </div>
       </div>
     );
