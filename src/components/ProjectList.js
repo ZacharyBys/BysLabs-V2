@@ -9,6 +9,7 @@ import Robohacks from '../resources/robohacks.png';
 import AdidasMoments from '../resources/adidas_moments_logo.png';
 import CaptionThis from '../resources/caption_this.png';
 import RefugeeCenter from '../resources/refugee_logo.png';
+import BreadBox from '../resources/conuhacks2.png';
 
 class ProjectList extends Component {
     render() {
@@ -83,6 +84,14 @@ class ProjectList extends Component {
                     </li>
                     <li>
                         <Project 
+                            title="BreadBox" 
+                            description="Gaming console built with an Arduino, with a grid of 160 LEDs as the display. Built at my first hackathon."
+                            image={BreadBox}
+                            link="https://github.com/software/breadbox"
+                        />
+                    </li>
+                    <li>
+                        <Project 
                             title="Avalon" 
                             description="Allows refugee centers to track refugees, update their information when needed, and receive notifications from them. Won 2nd overall at Blochacks 2017."
                             image={RefugeeCenter}
@@ -96,3 +105,4 @@ class ProjectList extends Component {
 }
 
 export default ProjectList;
+/*fuck you jay*/
