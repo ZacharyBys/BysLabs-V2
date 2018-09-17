@@ -87,7 +87,7 @@ class ProjectList extends Component {
                             title="BreadBox" 
                             description="Gaming console built with an Arduino, with a grid of 160 LEDs as the display. Built at my first hackathon."
                             image={BreadBox}
-                            link="https://github.com/software/breadbox"
+                            link="https://devpost.com/software/breadbox"
                         />
                     </li>
                     <li>
