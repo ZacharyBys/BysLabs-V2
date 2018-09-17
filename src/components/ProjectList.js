@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/ProjectList.css';
 import Project from './Project';
 import Wryss from '../resources/wryss.jpg';
+import Heartful from '../resources/heartful.png';
 import HackNY from '../resources/hackny.png';
 import ConUHacks from '../resources/conuhacks_logo.svg';
 import Robohacks from '../resources/robohacks.png';
@@ -22,6 +23,14 @@ class ProjectList extends Component {
                             description="All in one translation chat-bot. Uses IBM Watson to translate images, text, and voice. Won 2nd overall and the IBM prize at ConUHacks III."
                             image={Wryss}
                             link="https://devpost.com/software/wryssbot"
+                        />
+                    </li>
+                    <li>
+                        <Project 
+                            title="Heartful" 
+                            description="Displays your most stressfull areas on a map using Fitbit to prevent heart disease. It also reacts by sending an emergency text if you are having a heart attack."
+                            image={Heartful}
+                            link="https://devpost.com/software/heartful"
                         />
                     </li>
                     <li>
