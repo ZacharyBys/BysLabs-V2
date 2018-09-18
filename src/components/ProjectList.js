@@ -29,7 +29,7 @@ class ProjectList extends Component {
                     <li>
                         <Project 
                             title="Heartful" 
-                            description="Displays your most stressfull areas on a map using Fitbit to prevent heart disease. It also reacts by sending an emergency text if you are having a heart attack."
+                            description="Displays your most stressful locations on a map using Fitbit to prevent heart disease. It also reacts by sending an emergency text if you are having a heart attack."
                             image={Heartful}
                             link="https://devpost.com/software/heartful"
                         />
