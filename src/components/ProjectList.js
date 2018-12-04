@@ -9,7 +9,8 @@ import Robohacks from '../resources/robohacks.png';
 import AdidasMoments from '../resources/adidas_moments_logo.png';
 import CaptionThis from '../resources/caption_this.png';
 import RefugeeCenter from '../resources/refugee_logo.png';
-import BreadBox from '../resources/conuhacks2.png';
+import YHack from '../resources/yhack.png';
+import RUDating from '../resources/rudating.png';
 
 class ProjectList extends Component {
     render() {
@@ -20,10 +21,10 @@ class ProjectList extends Component {
                 <ul className="project-list">
                     <li>
                         <Project 
-                            title="WryssBot" 
-                            description="All in one translation chat-bot. Uses IBM Watson to translate images, text, and voice. Won 2nd overall and the IBM prize at ConUHacks III."
-                            image={Wryss}
-                            link="https://devpost.com/software/wryssbot"
+                            title="Bonjour-Hi" 
+                            description="Multilingual video chat rooms, with voice translation for group calls with participants speaking different languages. 1st place winner of Facebook's Mission at YHack 2018."
+                            image={YHack}
+                            link="https://github.com/ZacharyBys/bonjour-hi"
                         />
                     </li>
                     <li>
@@ -32,6 +33,14 @@ class ProjectList extends Component {
                             description="Displays your most stressful locations on a map using Fitbit to prevent heart disease. It also reacts by sending an emergency text if you are having a heart attack."
                             image={Heartful}
                             link="https://devpost.com/software/heartful"
+                        />
+                    </li>
+                    <li>
+                        <Project 
+                            title="WryssBot" 
+                            description="All in one translation chat-bot. Uses IBM Watson to translate images, text, and voice. Won 2nd overall and the IBM prize at ConUHacks III."
+                            image={Wryss}
+                            link="https://devpost.com/software/wryssbot"
                         />
                     </li>
                     <li>
@@ -76,18 +85,10 @@ class ProjectList extends Component {
                     </li>
                     <li>
                         <Project 
-                            title="ShotBot" 
-                            description="Automatic drink dispenser, which is activated from a mobile device and detects glasses to pour a shot into. Won best electrical robot at Robohacks 2017."
-                            image={Robohacks}
-                            link="https://devpost.com/software/robohacks2017-shotbot"
-                        />
-                    </li>
-                    <li>
-                        <Project 
-                            title="BreadBox" 
-                            description="Gaming console built with an Arduino, with a grid of 160 LEDs as the display. Built at my first hackathon."
-                            image={BreadBox}
-                            link="https://devpost.com/software/breadbox"
+                            title="RUDating" 
+                            description="Web app for speed dating, that uses GCP to analyze conversational success. Users are matched and have 60 seconds to impress."
+                            image={RUDating}
+                            link="https://github.com/ZacharyBys/rudating"
                         />
                     </li>
                     <li>
